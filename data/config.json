@@ -1,0 +1,85 @@
+{
+    "check_interval_seconds": 60,
+    "servers": [
+        {
+            "base_url": "https:\/\/svra.interpaypos.com",
+            "hostname": "svra.interpaypos.com",
+            "internal_ip": "",
+            "instruction": "",
+            "group": "CORE",
+            "role": "P"
+        },
+        {
+            "base_url": "https:\/\/svrb.interpaypos.com",
+            "hostname": "svrb.interpaypos.com",
+            "internal_ip": "",
+            "instruction": "",
+            "group": "CORE",
+            "role": "S"
+        },
+        {
+            "base_url": "https:\/\/paynow.interpaypos.com",
+            "hostname": "paynow.interpaypos.com",
+            "internal_ip": "192.168.3.64",
+            "instruction": "",
+            "group": "OZROG",
+            "role": "P"
+        },
+        {
+            "base_url": "https:\/\/paypage.interpaypos.com",
+            "hostname": "paypage.interpaypos.com",
+            "internal_ip": "192.168.3.65",
+            "instruction": "",
+            "group": "OZROG",
+            "role": "S"
+        },
+        {
+            "base_url": "https:\/\/payment.interpaypos.com",
+            "hostname": "payment.interpaypos.com",
+            "internal_ip": "192.168.4.66",
+            "instruction": "",
+            "group": "OZBELL",
+            "role": "P"
+        },
+        {
+            "base_url": "https:\/\/payhost.interpaypos.com",
+            "hostname": "payhost.interpaypos.com",
+            "internal_ip": "192.168.4.67",
+            "instruction": "",
+            "group": "OZBELL",
+            "role": "S"
+        },
+        {
+            "base_url": "https:\/\/checkout.interpaypos.com",
+            "hostname": "checkout.interpaypos.com",
+            "internal_ip": "192.168.2.64",
+            "instruction": "",
+            "group": "TORROG",
+            "role": "P"
+        },
+        {
+            "base_url": "https:\/\/paynew.interpaypos.com",
+            "hostname": "paynew.interpaypos.com",
+            "internal_ip": "192.168.2.65",
+            "instruction": "",
+            "group": "TORROG",
+            "role": "S"
+        },
+        {
+            "base_url": "https:\/\/testgate.interpaypos.com",
+            "hostname": "testgate.interpaypos.com",
+            "internal_ip": "192.168.2.66",
+            "instruction": "",
+            "group": "TORROG",
+            "role": "T"
+        },
+        {
+            "base_url": "https:\/\/devgate.interpaypos.com",
+            "hostname": "devgate.interpaypos.com",
+            "internal_ip": "192.168.2.67",
+            "instruction": "",
+            "group": "TORROG",
+            "role": "D"
+        }
+    ]
+}
